@@ -54,4 +54,14 @@ plan:
             emulated-sender: ST1PQHQKV0RJXZFY1DGX8MNSNYVE3VGZJSRTPGZGM
             path: contracts/energy-efficiency.clar
             clarity-version: 2
+        - emulated-contract-publish:
+            contract-name: municipal-coordination
+            emulated-sender: ST1PQHQKV0RJXZFY1DGX8MNSNYVE3VGZJSRTPGZGM
+            path: contracts/municipal-coordination.clar
+            clarity-version: 2
+        - emulated-contract-publish:
+            contract-name: safety-prioritization
+            emulated-sender: ST1PQHQKV0RJXZFY1DGX8MNSNYVE3VGZJSRTPGZGM
+            path: contracts/safety-prioritization.clar
+            clarity-version: 2
       epoch: "2.5"
